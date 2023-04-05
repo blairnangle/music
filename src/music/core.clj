@@ -1,7 +1,10 @@
 (ns music.core
+  (:require [music.tutorial :as tutorial]))
+
+(ns music.core
   (:gen-class))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "Play some music."
   [& args]
-  (println "Hello, World!"))
+  (tutorial))

@@ -14,3 +14,6 @@ pom.xml.asc
 
 # Supercolider
 native
+
+# IntelliJ
+.idea
